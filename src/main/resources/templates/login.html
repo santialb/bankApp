@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #000000, #ffd700);
+           background: linear-gradient(to right, #00264d, #4d79ff);
             color: #ffffff;
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@
         }
 
         .navbar-custom {
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 38, 77, 0.8);
             position: fixed;
             top: 0;
             width: 100%;
@@ -140,7 +140,7 @@
         </div>
         <button type="submit" class="btn btn-block">Login</button>
     </form>
-    <p class="text-center mt-3">Don't have an account? <a href="/register" class="custom-link">Register here</a></p>
+    <p class="text-center mt-3">Don't have an account? <a href="register.html" class="custom-link">Register here</a></p>
 
     <div th:if="${param.error}" class="alert alert-danger mt-3 text-center">
         Invalid username or password.
